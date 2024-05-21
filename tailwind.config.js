@@ -28,7 +28,7 @@ module.exports = {
             'background': '#71717a'
           },
           '100%': {
-            'background': '#97cde6'
+            'background': '#bfdce0'
           }
         },
         'lightenCeiling': {
