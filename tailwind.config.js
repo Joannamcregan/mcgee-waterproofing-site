@@ -26,12 +26,12 @@ module.exports = {
         },
         'unfurl': {
           '0%': {
-            'background-image': 'linear-gradient(to right, #5e4a57 48%, #404040 50%)',
+            'background-image': 'linear-gradient(to right, #541c46 48%, #404040 50%)',
             'background-size':'300% 300%',
             'background-position': 'right center'
           },
           '100%': {
-            'background-image': 'linear-gradient(to right, #5e4a57 48%, #404040 50%)',
+            'background-image': 'linear-gradient(to right, #541c46 48%, #404040 50%)',
             'background-size':'300% 300%',            
             'background-position': 'left center'
           }

@@ -64,6 +64,6 @@ function glowUp(){
     //add carpet
     setTimeout(()=>  footer.classList.add('animate-unfurl'), 16500);
     setTimeout(()=>  footer.classList.remove('bg-neutral-700'), 17000);
-    setTimeout(()=>  footer.classList.add('bg-[#5e4a57]'), 17000);
+    setTimeout(()=>  footer.classList.add('bg-[#541c46]'), 17000);
     setTimeout(()=>  footer.classList.remove('animate-unfurl'), 23000);
 }

@@ -800,13 +800,13 @@ video {
 
 @keyframes unfurl {
   0% {
-    background-image: linear-gradient(to right, #5e4a57 48%, #404040 50%);
+    background-image: linear-gradient(to right, #541c46 48%, #404040 50%);
     background-size: 300% 300%;
     background-position: right center;
   }
 
   100% {
-    background-image: linear-gradient(to right, #5e4a57 48%, #404040 50%);
+    background-image: linear-gradient(to right, #541c46 48%, #404040 50%);
     background-size: 300% 300%;
     background-position: left center;
   }
@@ -896,9 +896,17 @@ video {
   border-color: rgb(212 212 216 / var(--tw-border-opacity));
 }
 
-.bg-\[\#5e4a57\] {
+.border-opacity-50 {
+  --tw-border-opacity: 0.5;
+}
+
+.border-opacity-25 {
+  --tw-border-opacity: 0.25;
+}
+
+.bg-\[\#541c2c\] {
   --tw-bg-opacity: 1;
-  background-color: rgb(94 74 87 / var(--tw-bg-opacity));
+  background-color: rgb(84 28 44 / var(--tw-bg-opacity));
 }
 
 .bg-\[\#635b50\] {
@@ -979,6 +987,11 @@ video {
 .bg-zinc-200 {
   --tw-bg-opacity: 1;
   background-color: rgb(228 228 231 / var(--tw-bg-opacity));
+}
+
+.bg-\[\#541c46\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(84 28 70 / var(--tw-bg-opacity));
 }
 
 .bg-gradient-to-b {
@@ -1160,6 +1173,16 @@ video {
   color: rgb(24 24 27 / var(--tw-text-opacity));
 }
 
+.text-blue-900 {
+  --tw-text-opacity: 1;
+  color: rgb(30 58 138 / var(--tw-text-opacity));
+}
+
+.text-blue-950 {
+  --tw-text-opacity: 1;
+  color: rgb(23 37 84 / var(--tw-text-opacity));
+}
+
 .underline {
   text-decoration-line: underline;
 }
@@ -1184,23 +1207,13 @@ video {
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
 
-.shadow-yellow-50 {
-  --tw-shadow-color: #fefce8;
+.shadow-yellow-100 {
+  --tw-shadow-color: #fef9c3;
   --tw-shadow: var(--tw-shadow-colored);
 }
 
 .shadow-zinc-900 {
   --tw-shadow-color: #18181b;
-  --tw-shadow: var(--tw-shadow-colored);
-}
-
-.shadow-yellow-900 {
-  --tw-shadow-color: #713f12;
-  --tw-shadow: var(--tw-shadow-colored);
-}
-
-.shadow-yellow-100 {
-  --tw-shadow-color: #fef9c3;
   --tw-shadow: var(--tw-shadow-colored);
 }
 
