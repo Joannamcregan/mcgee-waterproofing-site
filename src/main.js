@@ -1,8 +1,11 @@
 const main = document.querySelector('main');
 const header = document.querySelector('header');
+const footer = document.querySelector('footer');
 const rethink = document.getElementById('rethink');
 const contact = document.getElementById('contact');
 const ohio = document.getElementById('ohio');
+const savings = document.getElementById('savings');
+const reasons = document.getElementById('reasons');
 
 document.addEventListener('DOMContentLoaded', glowUp());
 
@@ -29,21 +32,38 @@ function glowUp(){
     setTimeout(()=>  header.classList.remove('bg-[#635b50]'), 15000);
     setTimeout(()=>  header.classList.remove('text-[#ebe6e1]'), 15000);
     setTimeout(()=>  header.classList.add('animate-addCeilingLight'), 15000);
-    setTimeout(()=>  header.classList.add('border-yellow-100'), 17000);
-    setTimeout(()=>  header.classList.add('border-b-4'), 17000);
-    setTimeout(()=>  header.classList.add('shadow-yellow-50'), 17000);
-    setTimeout(()=>  header.classList.remove('shadow-zinc-900'), 17000);
+    setTimeout(()=>  header.classList.add('border-yellow-100'), 15500);
+    setTimeout(()=>  header.classList.add('border-b-4'), 15500);
+    setTimeout(()=>  header.classList.add('shadow-yellow-100'), 15500);
+    setTimeout(()=>  header.classList.remove('shadow-zinc-900'), 15500);
     //paint sections
-    setTimeout(()=>  rethink.classList.remove('bg-zinc-100'), 18000);
-    setTimeout(()=>  rethink.classList.add('bg-[#eaebe6]'), 18000);
-    setTimeout(()=>  rethink.classList.remove('border-zinc-200'), 18000);
-    setTimeout(()=>  rethink.classList.add('border-[#d8d9d4]'), 18000);
-    setTimeout(()=>  contact.classList.remove('bg-zinc-100'), 19000);
-    setTimeout(()=>  contact.classList.add('bg-[#e8e5e3]'), 19000);
-    setTimeout(()=>  contact.classList.remove('border-zinc-200'), 19000);
-    setTimeout(()=>  contact.classList.add('border-[#d9d6d4]'), 19000);
-    setTimeout(()=>  ohio.classList.remove('bg-zinc-100'), 20000);
-    setTimeout(()=>  ohio.classList.add('bg-[#dfe3e6]'), 20000);
-    setTimeout(()=>  ohio.classList.remove('border-zinc-200'), 20000);
-    setTimeout(()=>  ohio.classList.add('border-[#d0d3d6]'), 20000);
+    setTimeout(()=>  rethink.classList.remove('bg-zinc-100'), 15600);
+    setTimeout(()=>  rethink.classList.add('bg-[#eaebe6]'), 15600);
+    setTimeout(()=>  rethink.classList.remove('border-zinc-200'), 15600);
+    setTimeout(()=>  rethink.classList.add('border-[#d8d9d4]'), 15600);
+    setTimeout(()=>  contact.classList.remove('bg-slate-100'), 15700);
+    setTimeout(()=>  contact.classList.add('bg-[#e8e5e3]'), 15700);
+    setTimeout(()=>  contact.classList.remove('border-slate-200'), 15700);
+    setTimeout(()=>  contact.classList.add('border-[#d9d6d4]'), 15700);
+    setTimeout(()=>  ohio.classList.remove('bg-stone-200'), 15800);
+    setTimeout(()=>  ohio.classList.add('bg-[#dfe6e5]'), 15800);
+    setTimeout(()=>  ohio.classList.remove('border-stone-300'), 15800);
+    setTimeout(()=>  ohio.classList.add('border-[#d0d6d5]'), 15800);
+    setTimeout(()=>  savings.classList.remove('bg-zinc-100'), 15900);
+    setTimeout(()=>  savings.classList.add('bg-[#e2e3e1]'), 15900);
+    setTimeout(()=>  savings.classList.remove('border-zinc-200'), 15900);
+    setTimeout(()=>  savings.classList.add('border-[#d6d6d4]'), 15900);
+    setTimeout(()=>  reasons.classList.remove('bg-zinc-200'), 15950);
+    setTimeout(()=>  reasons.classList.add('bg-[#dfe6e5]'), 15950);
+    setTimeout(()=>  reasons.classList.remove('border-zinc-300'), 15950);
+    setTimeout(()=>  reasons.classList.add('border-[#d0d6d5]'), 15950);
+    setTimeout(()=>  other.classList.remove('bg-slate-200'), 16000);
+    setTimeout(()=>  other.classList.add('bg-[#e8e5e3]'), 16000);
+    setTimeout(()=>  other.classList.remove('border-slate-300'), 16000);
+    setTimeout(()=>  other.classList.add('border-[#d0d6d5]'), 16000);
+    //add carpet
+    setTimeout(()=>  footer.classList.add('animate-unfurl'), 16500);
+    setTimeout(()=>  footer.classList.remove('bg-neutral-700'), 17000);
+    setTimeout(()=>  footer.classList.add('bg-[#5e4a57]'), 17000);
+    setTimeout(()=>  footer.classList.remove('animate-unfurl'), 23000);
 }

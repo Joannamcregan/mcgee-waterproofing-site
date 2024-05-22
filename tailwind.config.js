@@ -10,19 +10,32 @@ module.exports = {
       },
       'animation': {
         'dry':'dry 10s 1s 1 ease',
+        'unfurl':'unfurl 7s 0s 1 ease',
         'lightenWall':'lightenWall 7s 0s 1 ease',
-        'lightenCeiling':'lightenCeiling 10s 0s 1 ease',
+        'lightenCeiling':'lightenCeiling 5s 0s 1 ease',
         'addCeilingLight':'addCeilingLight 2s 0s 1 ease'
     },
     'keyframes': {
         'dry': {
             '0%': {
-                'background-size':'100% 100%'
+              'background-size':'100% 100%'
             },
             '100%': {
-                'background-size':'200% 200%'
+              'background-size':'200% 200%'
             }
         },
+        'unfurl': {
+          '0%': {
+            'background-image': 'linear-gradient(to right, #5e4a57 48%, #404040 50%)',
+            'background-size':'300% 300%',
+            'background-position': 'right center'
+          },
+          '100%': {
+            'background-image': 'linear-gradient(to right, #5e4a57 48%, #404040 50%)',
+            'background-size':'300% 300%',            
+            'background-position': 'left center'
+          }
+      },
         'lightenWall': {
           '0%': {
             'background': '#71717a'
