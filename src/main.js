@@ -30,7 +30,7 @@ const houseTape0 = document.getElementById('houseTape0');
 const houseTape1 = document.getElementById('houseTape1');
 const houseTape2 = document.getElementById('houseTape2');
 const houseTape3 = document.getElementById('houseTape3');
-const serviceLIst = document.getElementById('serviceLIst');
+const serviceList = document.getElementById('serviceList');
 const serviceTape0 = document.getElementById('serviceTape0');
 const serviceTape1 = document.getElementById('serviceTape1');
 const serviceTape2 = document.getElementById('serviceTape2');
@@ -167,4 +167,20 @@ function glowUp(){
     setTimeout(()=>  house.classList.remove('contrast-60'), 35000);
     setTimeout(()=>  house.classList.add('shadow-inner'), 35000);
     setTimeout(()=>  house.classList.add('shadow-gray-700'), 35000);
+    //make services list white board
+    setTimeout(()=>  serviceTape0.classList.add('hidden'), 35250);
+    setTimeout(()=>  serviceTape1.classList.add('hidden'), 35500);
+    setTimeout(()=>  serviceTape2.classList.add('hidden'), 35750);
+    setTimeout(()=>  serviceTape3.classList.add('hidden'), 36000);
+    setTimeout(()=>  serviceList.classList.add('bg-white'), 36000);
+    setTimeout(()=>  serviceList.classList.remove('bg-amber-50'), 36000);
+    setTimeout(()=>  serviceList.classList.add('border-gray-100'), 36000);
+    setTimeout(()=>  serviceList.classList.add('rounded'), 36000);
+    setTimeout(()=>  serviceList.classList.add('border-8'), 36000);
+    setTimeout(()=>  serviceList.classList.add('font-salsa'), 37000);
+    setTimeout(()=>  serviceList.classList.add('text-[25px]'), 37000);
+    setTimeout(()=>  serviceList.classList.remove('font-caveat'), 37000);
+    setTimeout(()=>  serviceList.classList.remove('text-[30px]'), 37000);
+    setTimeout(()=>  serviceList.classList.add('shadow-md'), 38000);    
+    setTimeout(()=>  serviceList.classList.add('shadow-gray-700'), 38000);
 }

@@ -6,7 +6,8 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        'caveat': ["Caveat", ...defaultTheme.fontFamily.serif]    
+        'caveat': ["Caveat", ...defaultTheme.fontFamily.sans],
+        'salsa': ["Salsa", ...defaultTheme.fontFamily.sans]
       },
       'animation': {
         'dry':'dry 10s 1s 1 ease',
