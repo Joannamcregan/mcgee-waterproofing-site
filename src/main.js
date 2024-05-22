@@ -95,7 +95,7 @@ function glowUp(){
     setTimeout(()=>  footer.classList.remove('bg-neutral-700'), 17000);
     setTimeout(()=>  footer.classList.add('bg-[#541c46]'), 17000);
     setTimeout(()=>  footer.classList.remove('animate-unfurl'), 23000);
-    //frame pictures
+    //frame akron picture
     setTimeout(()=>  akronTape0.classList.add('hidden'), 23250);
     setTimeout(()=>  akronTape1.classList.add('hidden'), 23500);
     setTimeout(()=>  akronTape2.classList.add('hidden'), 23750);
@@ -105,7 +105,6 @@ function glowUp(){
     setTimeout(()=>  akronBackground.classList.remove('from-amber-50'), 24500);
     setTimeout(()=>  akronBackground.classList.remove('via-amber-100'), 24500);
     setTimeout(()=>  akronBackground.classList.remove('to-amber-50'), 24500);    
-    setTimeout(()=>  akronBackground.classList.remove('rotate-[0.5deg]'), 25000);
     setTimeout(()=>  akronBackground.classList.add('shadow-md'), 25000);    
     setTimeout(()=>  akronBackground.classList.add('shadow-gray-700'), 25000);
     setTimeout(()=>  akron.classList.remove('saturate-50'), 26000);
@@ -113,4 +112,59 @@ function glowUp(){
     setTimeout(()=>  akron.classList.remove('contrast-60'), 26000);
     setTimeout(()=>  akron.classList.add('shadow-inner'), 26000);
     setTimeout(()=>  akron.classList.add('shadow-gray-700'), 26000);
+    setTimeout(()=>  akronBackground.classList.remove('rotate-[0.5deg]'), 27000);
+    //frame mansfield picture
+    setTimeout(()=>  mansfieldTape0.classList.add('hidden'), 27250);
+    setTimeout(()=>  mansfieldTape1.classList.add('hidden'), 27500);
+    setTimeout(()=>  mansfieldTape2.classList.add('hidden'), 27750);
+    setTimeout(()=>  mansfieldTape3.classList.add('hidden'), 28000);
+    setTimeout(()=>  mansfieldBackground.classList.add('bg-[#6e6253]'), 28500);
+    setTimeout(()=>  mansfieldBackground.classList.remove('bg-gradient-to-br'), 28500);
+    setTimeout(()=>  mansfieldBackground.classList.remove('from-amber-50'), 28500);
+    setTimeout(()=>  mansfieldBackground.classList.remove('via-amber-100'), 28500);
+    setTimeout(()=>  mansfieldBackground.classList.remove('to-amber-50'), 28500);    
+    setTimeout(()=>  mansfieldBackground.classList.remove('rotate-[0.3deg]'), 29000);
+    setTimeout(()=>  mansfieldBackground.classList.add('shadow-md'), 29000);    
+    setTimeout(()=>  mansfieldBackground.classList.add('shadow-gray-700'), 29000);
+    setTimeout(()=>  mansfield.classList.remove('saturate-50'), 30000);
+    setTimeout(()=>  mansfield.classList.remove('opacity-75'), 30000);
+    setTimeout(()=>  mansfield.classList.remove('contrast-60'), 30000);
+    setTimeout(()=>  mansfield.classList.add('shadow-inner'), 30000);
+    setTimeout(()=>  mansfield.classList.add('shadow-gray-700'), 30000);
+    //frame cleveland picture
+    setTimeout(()=>  clevelandTape0.classList.add('hidden'), 31250);
+    setTimeout(()=>  clevelandTape1.classList.add('hidden'), 31500);
+    setTimeout(()=>  clevelandTape2.classList.add('hidden'), 31750);
+    setTimeout(()=>  clevelandTape3.classList.add('hidden'), 32000);
+    setTimeout(()=>  clevelandBackground.classList.add('bg-[#6e6253]'), 32500);
+    setTimeout(()=>  clevelandBackground.classList.remove('bg-gradient-to-br'), 32500);
+    setTimeout(()=>  clevelandBackground.classList.remove('from-amber-50'), 32500);
+    setTimeout(()=>  clevelandBackground.classList.remove('via-amber-100'), 32500);
+    setTimeout(()=>  clevelandBackground.classList.remove('to-amber-50'), 32500);    
+    setTimeout(()=>  clevelandBackground.classList.remove('-rotate-[0.5deg]'), 33000);
+    setTimeout(()=>  clevelandBackground.classList.add('shadow-md'), 33000);    
+    setTimeout(()=>  clevelandBackground.classList.add('shadow-gray-700'), 33000);
+    setTimeout(()=>  cleveland.classList.remove('saturate-50'), 34000);
+    setTimeout(()=>  cleveland.classList.remove('opacity-75'), 34000);
+    setTimeout(()=>  cleveland.classList.remove('contrast-60'), 34000);
+    setTimeout(()=>  cleveland.classList.add('shadow-inner'), 34000);
+    setTimeout(()=>  cleveland.classList.add('shadow-gray-700'), 34000);
+    //frame house picture
+    setTimeout(()=>  houseTape0.classList.add('hidden'), 32250);
+    setTimeout(()=>  houseTape1.classList.add('hidden'), 32500);
+    setTimeout(()=>  houseTape2.classList.add('hidden'), 32750);
+    setTimeout(()=>  houseTape3.classList.add('hidden'), 33000);
+    setTimeout(()=>  houseBackground.classList.add('bg-[#6e6253]'), 33500);
+    setTimeout(()=>  houseBackground.classList.remove('bg-gradient-to-br'), 33500);
+    setTimeout(()=>  houseBackground.classList.remove('from-amber-50'), 33500);
+    setTimeout(()=>  houseBackground.classList.remove('via-amber-100'), 33500);
+    setTimeout(()=>  houseBackground.classList.remove('to-amber-50'), 33500);    
+    setTimeout(()=>  houseBackground.classList.remove('-rotate-[-0.5deg]'), 34000);
+    setTimeout(()=>  houseBackground.classList.add('shadow-md'), 34000);    
+    setTimeout(()=>  houseBackground.classList.add('shadow-gray-700'), 34000);
+    setTimeout(()=>  house.classList.remove('saturate-50'), 35000);
+    setTimeout(()=>  house.classList.remove('opacity-75'), 35000);
+    setTimeout(()=>  house.classList.remove('contrast-60'), 35000);
+    setTimeout(()=>  house.classList.add('shadow-inner'), 35000);
+    setTimeout(()=>  house.classList.add('shadow-gray-700'), 35000);
 }
