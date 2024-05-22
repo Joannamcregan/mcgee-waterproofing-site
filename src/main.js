@@ -6,6 +6,35 @@ const contact = document.getElementById('contact');
 const ohio = document.getElementById('ohio');
 const savings = document.getElementById('savings');
 const reasons = document.getElementById('reasons');
+const akron = document.getElementById('akron');
+const akronBackground = document.getElementById('akronBackground');
+const akronTape0 = document.getElementById('akronTape0');
+const akronTape1 = document.getElementById('akronTape1');
+const akronTape2 = document.getElementById('akronTape2');
+const akronTape3 = document.getElementById('akronTape3');
+const cleveland = document.getElementById('cleveland');
+const clevelandBackground = document.getElementById('clevelandBackground');
+const clevelandTape0 = document.getElementById('clevelandTape0');
+const clevelandTape1 = document.getElementById('clevelandTape1');
+const clevelandTape2 = document.getElementById('clevelandTape2');
+const clevelandTape3 = document.getElementById('clevelandTape3');
+const mansfield = document.getElementById('mansfield');
+const mansfieldBackground = document.getElementById('mansfieldBackground');
+const mansfieldTape0 = document.getElementById('mansfieldTape0');
+const mansfieldTape1 = document.getElementById('mansfieldTape1');
+const mansfieldTape2 = document.getElementById('mansfieldTape2');
+const mansfieldTape3 = document.getElementById('mansfieldTape3');
+const house = document.getElementById('house');
+const houseBackground = document.getElementById('houseBackground');
+const houseTape0 = document.getElementById('houseTape0');
+const houseTape1 = document.getElementById('houseTape1');
+const houseTape2 = document.getElementById('houseTape2');
+const houseTape3 = document.getElementById('houseTape3');
+const serviceLIst = document.getElementById('serviceLIst');
+const serviceTape0 = document.getElementById('serviceTape0');
+const serviceTape1 = document.getElementById('serviceTape1');
+const serviceTape2 = document.getElementById('serviceTape2');
+const serviceTape3 = document.getElementById('serviceTape3');
 
 document.addEventListener('DOMContentLoaded', glowUp());
 
@@ -66,4 +95,22 @@ function glowUp(){
     setTimeout(()=>  footer.classList.remove('bg-neutral-700'), 17000);
     setTimeout(()=>  footer.classList.add('bg-[#541c46]'), 17000);
     setTimeout(()=>  footer.classList.remove('animate-unfurl'), 23000);
+    //frame pictures
+    setTimeout(()=>  akronTape0.classList.add('hidden'), 23250);
+    setTimeout(()=>  akronTape1.classList.add('hidden'), 23500);
+    setTimeout(()=>  akronTape2.classList.add('hidden'), 23750);
+    setTimeout(()=>  akronTape3.classList.add('hidden'), 24000);
+    setTimeout(()=>  akronBackground.classList.add('bg-[#6e6253]'), 24500);
+    setTimeout(()=>  akronBackground.classList.remove('bg-gradient-to-br'), 24500);
+    setTimeout(()=>  akronBackground.classList.remove('from-amber-50'), 24500);
+    setTimeout(()=>  akronBackground.classList.remove('via-amber-100'), 24500);
+    setTimeout(()=>  akronBackground.classList.remove('to-amber-50'), 24500);    
+    setTimeout(()=>  akronBackground.classList.remove('rotate-[0.5deg]'), 25000);
+    setTimeout(()=>  akronBackground.classList.add('shadow-md'), 25000);    
+    setTimeout(()=>  akronBackground.classList.add('shadow-gray-700'), 25000);
+    setTimeout(()=>  akron.classList.remove('saturate-50'), 26000);
+    setTimeout(()=>  akron.classList.remove('opacity-75'), 26000);
+    setTimeout(()=>  akron.classList.remove('contrast-60'), 26000);
+    setTimeout(()=>  akron.classList.add('shadow-inner'), 26000);
+    setTimeout(()=>  akron.classList.add('shadow-gray-700'), 26000);
 }
