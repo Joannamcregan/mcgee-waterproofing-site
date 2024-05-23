@@ -27,14 +27,16 @@ module.exports = {
         },
         'unfurl': {
           '0%': {
-            'background-image': 'linear-gradient(to right, #541c46 48%, #404040 50%)',
+            'background-image': 'linear-gradient(to right, #ffeee6 48%, #404040 50%)',
             'background-size':'300% 300%',
-            'background-position': 'right center'
+            'background-position': 'right center',
+            'color': '#fafaf9'
           },
           '100%': {
-            'background-image': 'linear-gradient(to right, #541c46 48%, #404040 50%)',
+            'background-image': 'linear-gradient(to right, #ffeee6 48%, #404040 50%)',
             'background-size':'300% 300%',            
-            'background-position': 'left center'
+            'background-position': 'left center',
+            'color': '#292524'
           }
       },
         'lightenWall': {
