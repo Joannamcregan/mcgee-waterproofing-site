@@ -56,10 +56,12 @@ module.exports = {
           },
           'addCeilingLight': {
             '0%': {
-              'box-shadow': '0 25px 50px -12px #18181b'
+              'box-shadow': '0 25px 50px -12px #18181b',
+              'background': '#ede7df'
             },
             '100%': {
-              'box-shadow': '0 25px 50px -12px #fefce8'
+              'box-shadow': '0 25px 50px -12px #fefce8',
+              'background': '#fcf5eb'
             }
           }
         }

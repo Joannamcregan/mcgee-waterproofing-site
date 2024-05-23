@@ -62,6 +62,7 @@ function glowUp(){
     setTimeout(()=>  header.classList.remove('bg-[#635b50]'), 15000);
     setTimeout(()=>  header.classList.remove('text-[#ebe6e1]'), 15000);
     setTimeout(()=>  header.classList.add('animate-addCeilingLight'), 15000);
+    setTimeout(()=>  header.classList.add('bg-[#fcf5eb]'), 15500);
     setTimeout(()=>  header.classList.add('border-yellow-100'), 15500);
     setTimeout(()=>  header.classList.add('border-b-4'), 15500);
     setTimeout(()=>  header.classList.add('shadow-yellow-100'), 15500);
@@ -189,33 +190,35 @@ function glowUp(){
 }
 
 function addLightbulbs(){
+    let lightSwitch = document.createElement('button');
     let light = document.createElement('img');
     let blacklight = document.createElement('img');
+    lightSwitch.setAttribute('id', 'lightSwitch');
+    lightSwitch.setAttribute('aria-label', 'light switch');
+    lightSwitch.classList.add('absolute');
+    lightSwitch.classList.add('right-20');
+    lightSwitch.classList.add('top-2');
     light.setAttribute('id', 'light');
     blacklight.setAttribute('id', 'blacklight');
     light.src="./images/light.png";
     blacklight.src="./images/blacklight.png";
     light.alt="yellow lightbulb icon";
     blacklight.alt="teal lightbulb icon";
-    light.classList.add('absolute');
-    light.classList.add('right-20');
-    light.classList.add('top-2');
     light.classList.add('h-7');
-    light.classList.add('transition-all');
-    light.classList.add('duration-1000');
-    light.classList.add('ease-in-out');    
-    blacklight.classList.add('absolute');
-    blacklight.classList.add('right-20');
-    blacklight.classList.add('top-2');
+    // light.classList.add('transition-all');
+    // light.classList.add('duration-1000');
+    // light.classList.add('ease-in-out');    
     blacklight.classList.add('h-7');
-    blacklight.classList.add('transition-all');
-    blacklight.classList.add('duration-1000');
-    blacklight.classList.add('ease-in-out');
+    // blacklight.classList.add('transition-all');
+    // blacklight.classList.add('duration-1000');
+    // blacklight.classList.add('ease-in-out');
     blacklight.classList.add('hidden');
-    light.setAttribute('onclick', 'lightsOff()');
-    blacklight.setAttribute('onclick', 'lightsOff()');
-    header.append(light);
-    header.append(blacklight);
+    // light.setAttribute('onclick', 'lightsOff()');
+    // blacklight.setAttribute('onclick', 'lightsOff()');
+    lightSwitch.setAttribute('onclick', toggleLight());
+    lightSwitch.append(light);
+    lightSwitch.append(blacklight);
+    header.append(lightSwitch);
 }
 
 function lightsOn(){
@@ -225,9 +228,9 @@ function lightsOn(){
     body.classList.remove('dark');
 }
 
-function lightsOff(){
-    console.log('lights off called');
-    document.getElementById('blacklight').classList.remove('hidden');
-    document.getElementById('light').classList.add('hidden');
-    body.classList.add('dark');
+function toggleLight(){
+    console.log('toggle light called');
+    body.classList.toggle('dark');
+    document.getElementById('light').classList.toggle('hidden');
+    document.getElementById('blacklight').classList.toggle('hidden');
 }
