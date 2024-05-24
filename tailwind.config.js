@@ -9,6 +9,12 @@ module.exports = {
         'caveat': ["Caveat", ...defaultTheme.fontFamily.sans],
         'salsa': ["Salsa", ...defaultTheme.fontFamily.sans]
       },
+      dropShadow: {
+        greenGlow: [
+          "0 0px 20px rgba(22, 101, 52, 0.7)",
+          "0 0px 65px rgba(245, 208, 254, 0.7)"
+        ]
+      },
       'animation': {
         'dry':'dry 10s 1s 1 ease',
         'unfurl':'unfurl 7s 0s 1 ease',

@@ -61,14 +61,15 @@ function glowUp(){
     setTimeout(()=>  header.classList.add('text-[#302920]'), 15000);
     setTimeout(()=>  header.classList.remove('bg-[#635b50]'), 15000);
     setTimeout(()=>  header.classList.remove('text-[#ebe6e1]'), 15000);
-    setTimeout(()=>  header.classList.add('animate-addCeilingLight'), 15000);
-    setTimeout(()=>  header.classList.add('bg-[#fcf5eb]'), 15500);
-    setTimeout(()=>  header.classList.add('border-yellow-100'), 15500);
-    setTimeout(()=>  header.classList.add('dark:border-teal-800'), 15500);
-    setTimeout(()=>  header.classList.add('border-b-4'), 15500);
-    setTimeout(()=>  header.classList.add('shadow-yellow-100'), 15500);
-    setTimeout(()=>  header.classList.add('dark:shadow-teal-300'), 15500);
-    setTimeout(()=>  header.classList.remove('shadow-zinc-900'), 15500);
+    //turn on lights
+    setTimeout(()=>  header.classList.add('animate-addCeilingLight'), 17000);
+    setTimeout(()=>  header.classList.add('bg-[#fcf5eb]'), 17500);
+    setTimeout(()=>  header.classList.add('border-yellow-100'), 17500);
+    setTimeout(()=>  header.classList.add('dark:border-teal-800'), 17500);
+    setTimeout(()=>  header.classList.add('border-b-4'), 17500);
+    setTimeout(()=>  header.classList.add('shadow-yellow-100'), 17500);
+    setTimeout(()=>  header.classList.add('dark:shadow-teal-300'), 17500);
+    setTimeout(()=>  header.classList.remove('shadow-zinc-900'), 17500);
     //paint sections
     setTimeout(()=>  rethink.classList.remove('bg-zinc-100'), 15600);
     setTimeout(()=>  rethink.classList.add('bg-[#eaebe6]'), 15600);
@@ -126,6 +127,7 @@ function glowUp(){
     setTimeout(()=>  mansfieldTape2.classList.add('hidden'), 14750);
     setTimeout(()=>  mansfieldTape3.classList.add('hidden'), 15000);
     setTimeout(()=>  mansfieldBackground.classList.add('bg-[#6e6253]'), 15500);
+    setTimeout(()=>  mansfieldBackground.classList.add('dark:bg-neutral-950'), 15500);
     setTimeout(()=>  mansfieldBackground.classList.remove('bg-gradient-to-br'), 15500);
     setTimeout(()=>  mansfieldBackground.classList.remove('from-amber-50'), 15500);
     setTimeout(()=>  mansfieldBackground.classList.remove('via-amber-100'), 15500);
@@ -144,6 +146,7 @@ function glowUp(){
     setTimeout(()=>  clevelandTape2.classList.add('hidden'), 15750);
     setTimeout(()=>  clevelandTape3.classList.add('hidden'), 16000);
     setTimeout(()=>  clevelandBackground.classList.add('bg-[#6e6253]'), 16500);
+    setTimeout(()=>  clevelandBackground.classList.add('dark:bg-neutral-950'), 16500);
     setTimeout(()=>  clevelandBackground.classList.remove('bg-gradient-to-br'), 16500);
     setTimeout(()=>  clevelandBackground.classList.remove('from-amber-50'), 16500);
     setTimeout(()=>  clevelandBackground.classList.remove('via-amber-100'), 16500);
@@ -162,6 +165,7 @@ function glowUp(){
     setTimeout(()=>  houseTape2.classList.add('hidden'), 14750);
     setTimeout(()=>  houseTape3.classList.add('hidden'), 15000);
     setTimeout(()=>  houseBackground.classList.add('bg-[#6e6253]'), 15500);
+    setTimeout(()=>  houseBackground.classList.add('dark:bg-neutral-950'), 15500);
     setTimeout(()=>  houseBackground.classList.remove('bg-gradient-to-br'), 15500);
     setTimeout(()=>  houseBackground.classList.remove('from-amber-50'), 15500);
     setTimeout(()=>  houseBackground.classList.remove('via-amber-100'), 15500);
